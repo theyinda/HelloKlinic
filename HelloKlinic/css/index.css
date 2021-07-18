@@ -1,0 +1,683 @@
+/* GLOBAL STYLES */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #18191f;
+  font-weight: normal;
+  font-feature-settings: "salt" on, "liga" off;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+i,
+a,
+button {
+  cursor: pointer;
+}
+.content {
+  width: 100%;
+  margin: 0 auto;
+}
+/* NAV STYLES */
+.nav-container {
+  width: 95%;
+  margin: 20px auto;
+}
+.nav-link {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 23px;
+  color: #333333 !important;
+  margin-left: 32px;
+}
+.nav-link:active {
+  color: #1c75bc !important;
+}
+.nav-link:hover {
+  background: #1c75bc;
+  border-radius: 4px;
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  mix-blend-mode: normal;
+}
+
+/* BODY */
+
+/* HERO STYLES */
+.hero {
+  width: 95%;
+  margin: 20px auto;
+}
+.hero-header {
+  margin-top: 60px;
+}
+
+.hero-header > h4 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 60px;
+}
+.hero-header p {
+  width: 467px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.hero-img {
+  display: block;
+  width: 90%;
+}
+.hero-card {
+  width: 95%;
+  margin: 20px auto;
+}
+
+.hero-card-header > h4 {
+  margin-top: 64px;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: left;
+}
+.hero-card {
+  margin: 40px auto;
+}
+.details {
+  display: flex;
+}
+.details input {
+  background: #f9fafc;
+  border-radius: 8px;
+  width: 397px;
+  border-style: none;
+  padding: 10px 15px;
+}
+.details::-webkit-input-placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+.details::-moz-placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+.details:-ms-input-placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+.details::-ms-input-placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+.details::placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+.alert {
+  text-align: center;
+  padding: 10px;
+  background: #1c75bc;
+  color: #fff;
+  margin-bottom: 30px;
+  display: none;
+}
+.cardOne,
+.cardTwo,
+.cardThree {
+  height: 309px;
+  margin-top: 48px;
+  border-radius: 10px;
+}
+
+.cardOne h4,
+.cardTwo h4,
+.cardThree h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: left;
+  padding: 10px 0;
+}
+.cardOne p,
+.cardTwo p,
+.cardThree p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: left;
+  width: 350px;
+}
+.benefit-container {
+  width: 95%;
+  margin: 20px auto;
+  background-color: #f9fafc;
+}
+.benefit-header h4 {
+  margin-top: 100px;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 54px;
+}
+.benefit-header p {
+  padding-top: 32px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+}
+.benefit-img {
+  display: block;
+  width: 100%;
+}
+
+/*VIRTUAL STYLES */
+
+.virtual-container {
+  width: 95%;
+  margin: 20px auto;
+  background-color: #f9fafc;
+}
+
+.virtual-header {
+  margin-top: 70px;
+}
+
+.virtual-header > h4 {
+  margin-top: 40px;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 54px;
+  text-align: left;
+}
+.virtual-header p {
+  width: 414px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  padding: 15px 0;
+  text-align: left;
+  width: 444px;
+  padding-top: 32px;
+}
+
+/*HEALTH STYLES */
+
+.health-container {
+  width: 95%;
+  margin: 20px auto;
+}
+
+.health-header > h4 {
+  margin-top: 64px;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 54px;
+  text-align: left;
+}
+.health-header p {
+  width: 414px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: left;
+  width: 540px;
+  padding-top: 64px;
+}
+
+/*PEOPLE STYLES */
+
+.people-container {
+  width: 95%;
+  margin: 20px auto;
+}
+
+.people-container img {
+  width: 95%;
+}
+
+/* WAITLIST STYLES */
+
+.waitlist {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 174px;
+}
+
+.waitlist-header > h3 {
+  margin-bottom: 40px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  padding-top: 30px;
+}
+.waitlist-header p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #4f4f4f;
+  padding-top: 6px;
+}
+.waitlist__btn {
+  margin-bottom: 64px;
+}
+.join-button {
+  background: #1c75bc;
+  border-radius: 6px;
+  border-style: none;
+  padding: 10px 20px;
+}
+.join-button a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 20px;
+}
+.btn:hover {
+  color: #ffffff;
+}
+
+/* FOOTER STYLES */
+
+.footer {
+  background: #1c75bc;
+}
+
+.container__items {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container__items div {
+  margin: 14px auto;
+}
+
+.copyright {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  width: 346px;
+  color: #d9dbe1;
+}
+
+.social-media img {
+  margin-left: 28px;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 972px) {
+  .content {
+    width: 90%;
+  }
+  .nav-container {
+    width: 85%;
+    margin: 20px auto;
+  }
+
+  .hero-header p {
+    width: 300px;
+    text-align: left;
+    font-size: 16px;
+    padding-top: 20px;
+  }
+  .hero-card {
+    margin: 10px auto;
+  }
+  .benefit-header p {
+    text-align: center;
+  }
+  .benefit-img {
+    margin-top: 40px;
+  }
+
+  .cardOne h4,
+  .cardTwo h4,
+  .cardThree h4 {
+    text-align: center;
+
+    font-size: 18px;
+  }
+  .cardOne p,
+  .cardTwo p,
+  .cardThree p {
+    width: 200px;
+  }
+  .health-header p {
+    width: 300px;
+    text-align: left;
+  }
+  .virtual-header p {
+    width: 330px;
+    text-align: left;
+    font-size: 16px;
+  }
+
+  .details {
+    margin-top: 50px;
+  }
+
+  .join-button {
+    width: 200px;
+  }
+  .virtual-img,
+  .hero-img,
+  .people-img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .virtual-img img {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .hero-img img,
+  .people-img img {
+    width: 100%;
+  }
+
+  .container__items {
+    width: 90%;
+
+    display: block;
+    margin: 0 auto;
+  }
+  .container__items .footer-logo {
+    display: none;
+  }
+  .container__items p {
+    padding-top: 20px;
+  }
+  .v {
+    width: 100%;
+  }
+  .copyright {
+    text-align: center;
+    width: 100%;
+  }
+  .social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .social-media img {
+    padding: auto;
+    margin-bottom: 15px;
+  }
+  .waitlist {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    width: 90%;
+    margin: 20px auto;
+  }
+  .nav-container {
+    width: 85%;
+    margin: 20px auto;
+  }
+
+  .hero-header p {
+    width: 380px;
+    text-align: left;
+    font-size: 16px;
+    padding-top: 10px;
+  }
+  .hero-card {
+    margin: 10px auto;
+  }
+  .benefit-header p {
+    text-align: center;
+  }
+  .benefit-img {
+    margin-top: 20px;
+  }
+
+  .cardOne h4,
+  .cardTwo h4,
+  .cardThree h4 {
+    text-align: center;
+
+    font-size: 18px;
+  }
+  .cards {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .cardOne p,
+  .cardTwo p,
+  .cardThree p {
+    width: 350px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .health-header p {
+    width: 300px;
+    text-align: left;
+  }
+  .virtual-header p {
+    text-align: center;
+  }
+
+  .details {
+    display: inline-block;
+  }
+  .details input {
+    width: 390px;
+  }
+  .form__button {
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  .join-button {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 25px auto;
+    width: 150px;
+  }
+  .virtual-img,
+  .hero-img,
+  .people-img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .virtual-img img {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .hero-img img,
+  .people-img img {
+    width: 100%;
+  }
+
+  .container__items {
+    width: 90%;
+
+    display: block;
+    margin: 0 auto;
+  }
+  .container__items .footer-logo {
+    display: none;
+  }
+  .container__items p {
+    padding-top: 20px;
+  }
+  .v {
+    width: 100%;
+  }
+  .copyright {
+    text-align: center;
+    width: 100%;
+  }
+  .social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .social-media img {
+    padding: auto;
+    margin-bottom: 15px;
+  }
+  .waitlist {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 425px) {
+  .content {
+    width: 90%;
+    margin: 20px auto;
+  }
+  .nav-container {
+    width: 85%;
+    margin: 20px auto;
+  }
+
+  .hero-header > h4,
+  .benefit-header h4,
+  .virtual-header > h4,
+  .health-header > h4,
+  .waitlist-header > h3,
+  .hero-card-header h4,
+  .cardOne h4,
+  .cardTwo h4,
+  .cardThree h4 {
+    text-align: center;
+  }
+  .hero-header p {
+    width: 300px;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 20px;
+  }
+  .hero-card {
+    margin: 10px auto;
+  }
+  .benefit-header p {
+    text-align: center;
+  }
+
+  .cardOne p,
+  .cardTwo p,
+  .cardThree p {
+    width: 300px;
+  }
+  .health-header p {
+    width: 300px;
+    text-align: center;
+  }
+  .virtual-header p {
+    width: 300px;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .details {
+    display: block;
+  }
+  .details input {
+    width: 300px;
+  }
+  .form__button {
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  .join-button {
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+    width: 150px;
+  }
+  .virtual-img,
+  .hero-img,
+  .people-img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .virtual-img img,
+  .hero-img img,
+  .people-img img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .container__items {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+  .container__items .footer-logo {
+    display: none;
+  }
+  .container__items p {
+    padding-top: 20px;
+  }
+  .v {
+    width: 100%;
+  }
+  .copyright {
+    text-align: center;
+    width: 100%;
+  }
+  .social-media {
+    width: 100%;
+
+    margin: 0 auto;
+  }
+  .social-media img {
+    margin-left: 45px;
+    margin-bottom: 15px;
+  }
+  .waitlist {
+    margin-top: 100px;
+  }
+}

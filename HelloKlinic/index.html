@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HelloKlinic | About</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/index.css" />
+
+    <!-- ------------ Google fonts link  ------------------------- -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="content">
+      <!-- HEADER -->
+      <nav class="navbar navbar-css navbar-expand-lg navbar-dark">
+        <div class="container-fluid nav-container">
+          <img class="" src="./images/logo.svg" alt="logo" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <img class="" src="./images/navicon.png" alt="" />
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#about" class="nav-link current">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="#waitlist" class="nav-link">Join Waitlist</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- CONTENT -->
+
+      <!-- HERO -->
+      <section class="hero">
+        <div class="container-fluid hero-container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="hero-header">
+                <h4 class="">
+                  View Hospitals, Choose Providers and Schedule a Visit
+                </h4>
+                <p>
+                  HelloKlinic offers access to care and reaches more patient. We
+                  also cut patient cost of recieving healthcare by implementing
+                  medical sessions via phone, laptop or any other digital
+                  device.
+                </p>
+
+                <div class="hero__form">
+                  <div class="alert">
+                    Received, Thanks for joining our waitlist!!!
+                  </div>
+                  <form id="contactForm">
+                    <div class="details">
+                      <div class="email">
+                        <input
+                          type="email"
+                          required
+                          name="email"
+                          id="email"
+                          placeholder="Email Address"
+                        />
+                      </div>
+
+                      <div class="form__button">
+                        <button
+                          type="submit"
+                          class="join-button btn"
+                          name="submit"
+                          id="waitlist"
+                        >
+                          Join Waitlist
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img src="./images/hero.svg" class="hero-img" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hero-card">
+        <div class="container-fluid">
+          <div class="hero-card-header">
+            <h4 class="">See how HelloKlinic can help</h4>
+          </div>
+
+          <div class="row cards">
+            <div class="col-md-4">
+              <div class="cardOne">
+                <img src="./images/view.svg" class="cardOne-img" />
+                <h4 class="">View Hospitals</h4>
+                <p class="wow slideInLeft" data-wow-duration="3s">
+                  Our partner hospitals are listed and you can choose providers
+                  for immediate medical needs
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="cardTwo">
+                <img src="./images/providers.svg" class="cardTwo-img" />
+                <h4 class="">Choose Providers</h4>
+                <p class="wow slideInLeft" data-wow-duration="3s">
+                  Request televisit or in home medical visits from licensed and
+                  experienced doctors and nurses
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="cardThree">
+                <img src="./images/cost.svg" class="cardThree-img" />
+                <h4 class="">Reduce Healthcare Cost</h4>
+                <p
+                  class="wow slideInLeft bounceOutRight"
+                  data-wow-duration="3s"
+                >
+                  HelloKlinic reduce the unnecessary and expensive use of
+                  hospital room care thereby benefitting the patients.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- BENEFIT -->
+      <section class="benefit-container">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6 benefit-img">
+              <img src="./images/staff.svg" class="benefit-img" />
+            </div>
+
+            <div class="col-md-6">
+              <div class="benefit-header">
+                <h4 class="">Reduce pressure on Medical Staffs</h4>
+                <p>
+                  Helloklinic bridges the gap between people, physicians and
+                  health systems, enabling eveyone, especially symptomatic
+                  patients, to stay at home and communicate with physicians
+                  through virtual channels, thereby helping to reduce the
+                  pressure on medical staffs.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIRTUAl -->
+      <section class="virtual-container">
+        <div class="container-fluid">
+          <div class="row text-center">
+            <div class="col-md-6">
+              <div class="virtual">
+                <div class="virtual-header">
+                  <h4 class="">Top Tier Virtual Care Platform</h4>
+                  <p>
+                    Schedule video and audio calls with our doctors and nurses
+                    thereby saving time and money. Our care platform offers a
+                    more effective and reliable communication and also breaks
+                    down geographical barriers between providers and patients.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 virtual-img">
+              <img src="./images/virtual.svg" class="update-img" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- HEALTH -->
+
+      <section class="health-container">
+        <div class="container-fluid">
+          <div class="row text-center">
+            <div class="col-md-6">
+              <div class="health">
+                <div class="health-header">
+                  <h4 class="">Better health and improved way of living</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 health-header">
+              <p>
+                A healthy lifestyle is important for everyone. When we look
+                after our physical health, we feel better, more relaxed and able
+                to cope with things.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PEOPLE -->
+      <section class="people-container">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12 people-img">
+              <img src="./images/people.svg" class="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- WAITLIST -->
+
+      <section class="waitlist">
+        <div class="waitlist-header">
+          <h3 class="">Join Our Waitlist Today!!!</h3>
+        </div>
+
+        <div class="waitlist__btn">
+          <button type="submit" class="join-button" name="submit">
+            <a href="#waitlist">Join Waitlist</a>
+          </button>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <section class="footer">
+        <div class="container__items">
+          <div class="v">
+            <p class="copyright">
+              © 2020 HelloKlinic Technologies. All rights reserved
+            </p>
+          </div>
+          <div class="footer-logo">
+            <img src="./images/footer-logo.svg" />
+          </div>
+
+          <div class="social-media">
+            <a href="#">
+              <img src="./images/instagram.svg" alt="instagram" class="icon" />
+            </a>
+            <a href="#">
+              <img src="./images/linkedin.svg" alt="linkedin" class="icon" />
+            </a>
+
+            <a href="#">
+              <img src="./images/twitter.svg" alt="twitter" class="icon" />
+            </a>
+            <a href="#">
+              <img src="./images/youtube.svg" alt="youtube" class="icon" />
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- ------------ FIRE BASE ------------------------- -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
