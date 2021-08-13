@@ -358,7 +358,6 @@ button {
     width: 85%;
     margin: 20px auto;
   }
-  .hero-header h4,
   .benefit-header h4,
   .health-header h4,
   .waitlist-header h3,
@@ -368,6 +367,10 @@ button {
   }
   .hero-header {
     margin-top: 20px;
+  }
+  .hero-header h4 {
+    font-size: 35px;
+    line-height: 40px;
   }
   .hero-header p {
     width: 420px;
@@ -732,7 +735,7 @@ button {
     width: 100%;
     margin: 10px 0px;
   }
-  
+
   .hero-header > h4,
   .benefit-header h4,
   .virtual-header > h4,
