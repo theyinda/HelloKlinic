@@ -14,7 +14,7 @@ html {
 
 body {
   font-family: "Inter", sans-serif;
-  color: #18191f;
+  color: #1c75bc;
   font-weight: normal;
   font-feature-settings: "salt" on, "liga" off;
   text-rendering: optimizeLegibility;
@@ -182,6 +182,7 @@ button {
 .benefit-container {
   width: 95%;
   margin: 20px auto;
+  background-color: red;
   background-color: #f9fafc;
 }
 .benefit-header h4 {
@@ -349,6 +350,139 @@ button {
 
 /* MEDIA QUERIES */
 
+@media (max-width: 1100px) {
+  .content {
+    width: 90%;
+  }
+  .nav-container {
+    width: 85%;
+    margin: 20px auto;
+  }
+  .hero-header h4,
+  .benefit-header h4,
+  .health-header h4,
+  .waitlist-header h3,
+  .virtual-header h4,
+  .hero-card-header h4 {
+    font-size: 35px;
+  }
+  .hero-header {
+    margin-top: 20px;
+  }
+  .hero-header p {
+    width: 420px;
+    text-align: left;
+    font-size: 16px;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  .hero-card {
+    margin: 10px auto;
+  }
+  .benefit-header p {
+    text-align: left;
+  }
+  .benefit-img {
+    margin-top: 40px;
+  }
+
+  .cardOne h4,
+  .cardTwo h4,
+  .cardThree h4 {
+    padding-top: 30px;
+    text-align: left;
+    font-size: 18px;
+  }
+  .cardOne p,
+  .cardTwo p,
+  .cardThree p {
+    width: 250px;
+    text-align: left;
+  }
+  .health-header p {
+    width: 300px;
+    text-align: left;
+  }
+  .virtual-header p {
+    width: 330px;
+    text-align: left;
+    font-size: 16px;
+  }
+
+  .details {
+    margin-top: 10px;
+    display: inline-block;
+  }
+  .details input {
+    width: 390px;
+  }
+  .form__button {
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  .join-button {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 25px auto;
+    width: 150px;
+  }
+  .virtual-img,
+  .hero-img,
+  .people-img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .virtual-img,
+  .hero-img,
+  .people-img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .virtual-img img {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .hero-img img,
+  .people-img img {
+    width: 100%;
+  }
+
+  .container__items {
+    width: 90%;
+
+    display: block;
+    margin: 0 auto;
+  }
+  .container__items .footer-logo {
+    display: none;
+  }
+  .container__items p {
+    padding-top: 20px;
+  }
+  .v {
+    width: 100%;
+  }
+  .copyright {
+    text-align: center;
+    width: 100%;
+  }
+  .social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .social-media img {
+    padding: auto;
+    margin-bottom: 15px;
+  }
+  .waitlist {
+    margin-top: 100px;
+  }
+}
+
 @media (max-width: 972px) {
   .content {
     width: 90%;
@@ -357,7 +491,14 @@ button {
     width: 85%;
     margin: 20px auto;
   }
-
+  .hero-header h4,
+  .benefit-header h4,
+  .health-header h4,
+  .waitlist-header h3,
+  .virtual-header h4,
+  .hero-card-header h4 {
+    font-size: 30px;
+  }
   .hero-header p {
     width: 300px;
     text-align: left;
@@ -455,15 +596,21 @@ button {
 @media (max-width: 768px) {
   .content {
     width: 90%;
-    margin: 20px auto;
+    margin: 0px auto;
   }
   .nav-container {
-    width: 85%;
-    margin: 20px auto;
+    width: 100%;
+    margin: 10px 0px;
   }
-
+  .hero-header h4,
+  .health-header h4,
+  .waitlist-header h3,
+  .virtual-header h4,
+  .hero-card-header h4 {
+    font-size: 25px;
+  }
   .hero-header p {
-    width: 380px;
+    width: 320px;
     text-align: left;
     font-size: 16px;
     padding-top: 10px;
@@ -471,18 +618,19 @@ button {
   .hero-card {
     margin: 10px auto;
   }
-  .benefit-header p {
-    text-align: center;
+  .benefit-header h4 {
+    font-size: 25px;
+    margin-top: 0px;
   }
-  .benefit-img {
-    margin-top: 20px;
+  .benefit-header p {
+    text-align: left;
+    width: 320px;
   }
 
   .cardOne h4,
   .cardTwo h4,
   .cardThree h4 {
-    text-align: center;
-
+    text-align: left;
     font-size: 18px;
   }
   .cards {
@@ -494,15 +642,12 @@ button {
   .cardTwo p,
   .cardThree p {
     width: 350px;
-    text-align: center;
+    text-align: left;
     font-size: 18px;
   }
   .health-header p {
     width: 300px;
     text-align: left;
-  }
-  .virtual-header p {
-    text-align: center;
   }
 
   .details {
@@ -575,13 +720,19 @@ button {
 @media (max-width: 425px) {
   .content {
     width: 90%;
-    margin: 20px auto;
+  }
+  .hero-header h4,
+  .health-header h4,
+  .waitlist-header h3,
+  .virtual-header h4,
+  .hero-card-header h4 {
+    font-size: 24px;
   }
   .nav-container {
-    width: 85%;
-    margin: 20px auto;
+    width: 100%;
+    margin: 10px 0px;
   }
-
+  
   .hero-header > h4,
   .benefit-header h4,
   .virtual-header > h4,
@@ -593,32 +744,36 @@ button {
   .cardThree h4 {
     text-align: center;
   }
+  .benefit-header h4 {
+    font-size: 24px;
+    margin-top: 30px;
+  }
   .hero-header p {
-    width: 300px;
-    text-align: center;
-    font-size: 16px;
+    width: 320px;
+    text-align: left;
     padding-top: 20px;
   }
   .hero-card {
     margin: 10px auto;
   }
   .benefit-header p {
-    text-align: center;
+    width: 320px;
+    text-align: left;
   }
 
   .cardOne p,
   .cardTwo p,
   .cardThree p {
     width: 300px;
+    text-align: left;
   }
   .health-header p {
-    width: 300px;
-    text-align: center;
+    width: 320px;
+    text-align: left;
   }
   .virtual-header p {
-    width: 300px;
-    text-align: center;
-    font-size: 16px;
+    width: 320px;
+    text-align: left;
   }
 
   .details {
@@ -679,5 +834,9 @@ button {
   }
   .waitlist {
     margin-top: 100px;
+  }
+  p {
+    width: 100px;
+    font-size: 15px;
   }
 }
